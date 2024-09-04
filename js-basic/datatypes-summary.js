@@ -29,3 +29,8 @@ let newObj = {
 const myFunction = function(){
     console.log("hello world");
 }
+
+
+//*********************************************************
+
+// stack (premitive), Heap(non-premitive)
