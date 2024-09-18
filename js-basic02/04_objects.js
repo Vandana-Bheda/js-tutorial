@@ -64,4 +64,15 @@ users[1].email;
 // console.log(Object.entries(tinderuser));//[ [ 'id', '123Abc' ], [ 'name', 'vandana' ], [ 'isLoggedIn', false ] ]
 
 
-console.log(tinderuser.hasOwnProperty('isLoggedIn'));//true
+// console.log(tinderuser.hasOwnProperty('isLoggedIn'));//true
+
+// destructure object
+
+const course = {
+    coursename: "js in hindi",
+    price: 999,
+    coursetype: "online",
+}
+
+const {coursetype: ctype} = course
+console.log(ctype);//online
