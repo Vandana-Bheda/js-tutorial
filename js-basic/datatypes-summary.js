@@ -30,6 +30,8 @@ const myFunction = function(){
     console.log("hello world");
 }
 
+console.log(typeof heros);//object
+console.log(typeof myFunction);//function
 
 //*********************************************************
 
