@@ -30,9 +30,28 @@ const myFunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof heros);//object
-console.log(typeof myFunction);//function
+// console.log(typeof heros);//object
+// console.log(typeof myFunction);//function
 
 //*********************************************************
 
-// stack (premitive), Heap(non-premitive)
+// stack (premitive)-it gives copy of value, Heap(non-premitive)-it gives original value
+
+let myname="vandana";
+let anothername=myname;
+anothername="bheda";
+console.log(anothername);
+console.log(myname);
+
+let user ={
+    namee : "vandana",
+    upi: "user@ybl"
+}
+
+let usertwo = user;
+usertwo.namee = "vandanabheda";
+
+console.log(user.namee);
+console.log(usertwo.namee);
+
+
